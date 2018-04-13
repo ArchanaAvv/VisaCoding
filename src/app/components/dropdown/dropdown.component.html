@@ -1,0 +1,17 @@
+<div class="dropdown">
+    <div class="dropdown-input" [ngClass]="{'open':show.dropdown}" (click)="show.dropdown = !show.dropdown">
+        <div class="list-flex" *ngIf="selected.country && selected.country.flag">
+            <img src="/assets/svg-country-flags/png250px/{{selected.country.flag}}.png" class="flag-thumbnail mt-adjust"/> 
+            <span class="mt-adjust">{{selected.country.long_name}}</span>
+           </div>
+    </div>
+    <ul class="dropdown-wrapper" [ngClass]="{'open':show.dropdown}">
+        <li class="collection-item" *ngFor="let country of countries" (click)="onSelect(country)">
+          <div class="list-flex">
+         <img src="/assets/svg-country-flags/png250px/{{country.flag}}.png" class="flag-thumbnail"/> 
+         <span>{{country.long_name}}</span>
+        </div>
+        </li>
+      </ul>
+
+</div>

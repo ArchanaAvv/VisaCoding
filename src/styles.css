@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+.container{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+ul, li{
+    margin:0;
+    padding:0;
+    list-style: none;
+    list-style-type: none;
+}
+
+p,a,h1,h2,h3,h4,h5,h6,ul,li, input,div{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hidden-md{
+    display: none;
+}
+.mr-2{
+    margin-right: 2em;
+}
+
+@media screen and (max-width: 768px) {
+    .hidden-sm{
+        display: none;
+    }
+    .visible-sm{
+        display: block;
+    }
+
+  }

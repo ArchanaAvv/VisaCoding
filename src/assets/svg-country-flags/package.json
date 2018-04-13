@@ -1,0 +1,53 @@
+{
+  "_from": "svg-country-flags",
+  "_id": "svg-country-flags@1.2.1",
+  "_inBundle": false,
+  "_integrity": "sha1-qdmVu2Z3EwTkWk1RsyW1XN7tkZ4=",
+  "_location": "/svg-country-flags",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "svg-country-flags",
+    "name": "svg-country-flags",
+    "escapedName": "svg-country-flags",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/svg-country-flags/-/svg-country-flags-1.2.1.tgz",
+  "_shasum": "a9d995bb66771304e45a4d51b325b55cdeed919e",
+  "_spec": "svg-country-flags",
+  "_where": "E:\\sathish\\gowthami",
+  "author": {
+    "name": "Hampus Nilsson"
+  },
+  "bugs": {
+    "url": "https://github.com/hjnilsson/country-flags/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "SVG and PNG renders of all countries' flags.",
+  "homepage": "http://hjnilsson.github.io/country-flags/",
+  "keywords": [
+    "flags",
+    "countries",
+    "country",
+    "svg"
+  ],
+  "license": "SAX-PD",
+  "name": "svg-country-flags",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hjnilsson/country-flags.git"
+  },
+  "scripts": {
+    "build-100-250-1000-pngs": "node scripts/build-pngs.js 100: && node scripts/build-pngs.js 250: && node scripts/build-pngs.js 1000:",
+    "build-pngs": "node scripts/build-pngs.js"
+  },
+  "version": "1.2.1"
+}

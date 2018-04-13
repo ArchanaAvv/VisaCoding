@@ -1,0 +1,25 @@
+.search{
+    background:#fff;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #eee;
+    padding:20px;
+}
+.input-wrapper{
+    width:750px;
+    position:relative;
+}
+
+.input-search{
+    width:calc(100% - 40px);
+    height:40px;
+    padding-left:10px;
+}
+
+.search-icon{
+    position: absolute;
+    right:40px;
+    top:15px;
+}

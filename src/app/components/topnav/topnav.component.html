@@ -1,0 +1,26 @@
+<nav class="topnav">
+  <div class="container">
+    <div class="menu-wrapper">
+      <div class="logo">
+        <img src="/assets/logo.png" alt="">
+      </div>
+      <ul class="menu">
+        <li class="hidden-sm"><a href="javascript:void(0)">Pay With Visa</a></li>
+        <li class="hidden-sm"><a href="javascript:void(0)">Partner With Us</a></li>
+        <li class="hidden-sm"><a href="javascript:void(0)">Run Your Business</a></li>
+        <li class="hidden-sm"><a href="javascript:void(0)">Travel With Visa</a></li>
+        <li class="hidden-sm"><a href="javascript:void(0)">Visa Everywhere</a></li>
+        <li class="visible-sm hidden-md mr-2"><a href="javascript:void(0)" (click)="toggleMenu()"><span class="fa fa-lg" [ngClass]="{'fa-bars':!show.menu, 'fa-times':show.menu}"></span></a></li>        
+        <li><a href="javascript:void(0)" (click)="toggleSearch()"><span class="fa fa-search fa-lg search-icon"></span></a></li>
+      </ul>
+      <ul class="menu-sm" *ngIf="show.menu">
+          <li><a href="javascript:void(0)">Pay With Visa</a></li>
+          <li><a href="javascript:void(0)">Partner With Us</a></li>
+          <li><a href="javascript:void(0)">Run Your Business</a></li>
+          <li><a href="javascript:void(0)">Travel With Visa</a></li>
+          <li><a href="javascript:void(0)">Visa Everywhere</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<app-search *ngIf="show.search"></app-search>

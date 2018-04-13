@@ -1,0 +1,90 @@
+Unzip the project file to any location 
+
+You will see the files and folder as you see on the left hand side.
+
+(node_modules folder will be missing)
+
+open the folder in command prompt -> click on the address bar and type cmd
+
+now run npm install
+
+this will create the node_modules folder and install necessary libraries.
+
+if you get any error, you need to install nodejs. Its an exe file you can google it and download.
+
+(If you are downloading nodejs, make sure you close the command prompt and open again)
+
+Plz wait for 5-10 as it might take time depending on your internet connection
+
+Now run npm start
+
+Wait for some time, that you will see green text..
+
+Now go to browser and type
+localhost:4200
+
+
+
+The application is coded on 3 view
+1. Desktop view
+2. tablet view
+3. mobile view
+
+This is desktop view
+
+This is tablet view
+
+This is mobile view
+
+The dropdown is coded in center of the page.
+
+All codes are in components folder
+
+For further clarification contact us.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
