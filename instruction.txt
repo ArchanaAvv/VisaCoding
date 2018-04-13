@@ -30,17 +30,11 @@ The application is coded on 3 view
 2. tablet view
 3. mobile view
 
-This is desktop view
-
-This is tablet view
-
-This is mobile view
 
 The dropdown is coded in center of the page.
 
 All codes are in components folder
 
-For further clarification contact us.
 
 
 
